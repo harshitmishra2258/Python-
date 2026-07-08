@@ -1,0 +1,15 @@
+
+
+
+
+string = input("Enter a string:")
+
+#reverse = string[::-1]
+reverse =""
+for i in range (len(string) -1,-1,-1):
+    reverse = reverse + string[i]
+if string==reverse:
+    print("The string is palindrome.")
+else :
+    print("string is not a palindrome")
+
